@@ -4,8 +4,9 @@ endpoints:
       apiKey: "${LITELLM_PROXY_API_KEY}"
       baseURL: "https://ca-litellm-dn.niceocean-76c89db2.westeurope.azurecontainerapps.io/v1"
       models:
+        default:
+          - "azure/gpt-4o"
         fetch: true
       modelDisplayLabel: "LiteLLM"
       titleConvo: true
-      titleModel: "gpt-4o"
-      summarize: false
+      titleModel: "azure/gpt-4o"
