@@ -8,8 +8,8 @@ endpoints:
       baseURL: "https://ca-litellm-dn.niceocean-76c89db2.westeurope.azurecontainerapps.io/v1"
       models:
         default:
-          - "azure/gpt-4o"
+          - "gpt-4o-mini"
         fetch: true
       modelDisplayLabel: "LiteLLM"
       titleConvo: true
-      titleModel: "current_model"
+      titleModel: "gpt-4o-mini"
